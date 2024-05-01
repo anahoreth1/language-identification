@@ -1,0 +1,13 @@
+load:
+  max_word_length:
+    12
+  languages:
+    ['en', 'cs', 'de', 'sv', 'fr']
+  master_alphabet:
+    'abcdefghijklmnopqrstuvwxyzáčďéěíňóřšťúůýžäöüßåàèùâêîôûçëïÿ'
+
+inference:
+  model_path:
+    'models/model_5_langs.keras'
+  test_word:
+    'wife'
